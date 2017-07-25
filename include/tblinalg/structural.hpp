@@ -1,0 +1,94 @@
+
+
+#ifndef TBLINALG_STRUCTURAL_HPP
+#define TBLINALG_STRUCTURAL_HPP
+
+
+
+//C libraries
+#include <cstdlib>
+#include <cassert>
+//C++99 libraries
+#include <iostream>
+#include <fstream>
+#include <vector>
+#include <string>
+//Custom Libraries
+#include "types_definitions.hpp"
+#include "tblinalg/input_output.hpp"
+
+
+
+namespace tblinalg
+{
+
+
+struct Structural
+{
+	Structural()
+	{
+		spatialDim=3;
+		dim[0]=1; dim[1]=1; dim[2]=1;
+		norb = 1;
+		nspin = 1;
+	}
+	
+	size_t spatialDim;
+	size_t dim[3];
+	tblinalg::real lat[3][3];
+	size_t norb;
+	size_t nspin; 
+		
+	void savetxt(std::string filename)
+	{
+		std::ofstream os(filename.c_str(),std::ofstream::binary );	
+		for(size_t i=0; i< spatialDim; i++)
+		{
+			os<<dim[i]<<" ";
+			for(size_t j=0; j< spatialDim; j++)
+				os<<lat[i][j]<<" ";
+		}
+		os<<norb<<" ";
+		os<<nspin<<" ";
+		os.close();
+	};
+
+	void loadtxt(std::string filename)
+	{
+		if ( !fileExists(filename) )
+		{
+			std::cout<<"Structural file: "<<filename<<" not found. ABORTING "<<std::endl;
+			std::exit(-1);
+		}
+		std::ifstream is(filename.c_str(),std::ifstream::binary );	
+		for(size_t i=0; i< spatialDim; i++)
+		{
+			is>>dim[i];
+			for(size_t j=0; j< spatialDim; j++)
+				is>>lat[i][j];
+		}
+		is>>norb;
+		is>>nspin;
+		is.close();
+	}
+	
+	void printParams()
+	{
+	std::cout<<"The structural parameters are:"<<std::endl
+			 <<"Unit cell lattice vectors :"<<std::endl
+			 <<"Lat1: ( "<<lat[0][0]<<" , "<<lat[0][1]<<" , "<<lat[0][2]<<" )"<<std::endl
+			 <<"Lat2: ( "<<lat[1][0]<<" , "<<lat[1][1]<<" , "<<lat[1][2]<<" )"<<std::endl
+			 <<"Lat3: ( "<<lat[2][0]<<" , "<<lat[2][1]<<" , "<<lat[2][2]<<" )"<<std::endl
+			 <<"Supercell with dimensions : "
+			 <<dim[0]<<" x "<<dim[1]<<" x "<<dim[2]<<std::endl
+			 <<"Number of orbital per unit cell is : "
+			 <<norb<<std::endl
+			 <<"Number os spin per orbital spin : "
+			 <<nspin
+			 <<std::endl;
+	}
+	
+};	  
+
+};
+#endif
