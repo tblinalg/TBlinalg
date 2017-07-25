@@ -1,0 +1,13 @@
+Running parallelMVmul using 16 processes
+Reading Structural file: graphene-example0.Structural
+The structural parameters are:
+Unit cell lattice vectors :
+Lat1: ( 1.73205 , 0 , 2.35561e-310 )
+Lat2: ( 0.866025 , 1.5 , 2.35561e-310 )
+Lat3: ( 4.94066e-324 , 9.88131e-324 , 3.12836e-317 )
+Supercell with dimensions : 32 x 32 x 1
+Number of orbital per unit cell is : 2
+Number os spin per orbital spin : 1
+From the DD the number of domains is: 4 4 1
+BlockDim: 64
+0 128 128

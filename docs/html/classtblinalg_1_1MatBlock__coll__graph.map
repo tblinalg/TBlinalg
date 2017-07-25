@@ -1,0 +1,6 @@
+<map id="tblinalg::MatBlock" name="tblinalg::MatBlock">
+<area shape="rect" id="node3" href="$classtblinalg_1_1MatRow.html" title="{tblinalg::MatRow\n||+ MatRow()\l+ MatRow()\l+ AddMatTuple()\l+ AddMatTuple()\l+ SortRow()\l+ Dim()\l+ GetMatTuple()\l+ GetMatTuple()\l}" alt="" coords="153,603,273,783"/>
+<area shape="rect" id="node5" href="$structtblinalg_1_1MatTuple.html" title="{tblinalg::MatTuple\n|+ col\l|+ MatTuple()\l+ MatTuple()\l}" alt="" coords="13,289,139,381"/>
+<area shape="rect" id="node7" title="STL class. " alt="" coords="27,5,124,83"/>
+<area shape="rect" id="node8" title="STL class. " alt="" coords="214,296,329,373"/>
+</map>

@@ -1,0 +1,18 @@
+Running parallelMVmul using 16 processes
+Reading Structural file: nn-graphene-64x64SC.Structural
+The structural parameters are:
+Unit cell lattice vectors :
+Lat1: ( 1.73205 , 0 , 3.58628e-315 )
+Lat2: ( 0.866025 , 1.5 , 6.93472e-310 )
+Lat3: ( 6.93472e-310 , 6.93472e-310 , 0 )
+Supercell with dimensions : 64 x 64 x 1
+Number of orbital per unit cell is : 2
+Number os spin per orbital spin : 1
+From the DD the number of domains is: 4 4 1
+BlockDim: 256
+mom=0
+0 1  0 elem0 512 (-0.225,0) (1,0)
+0 3  0 elem0 512 (-0.225,0) (1,0)
+0 129  0 elem0 512 (-0.225,0) (1,0)
+[mpiexec@dharma] Sending Ctrl-C to processes as requested
+[mpiexec@dharma] Press Ctrl-C again to force abort

@@ -1,0 +1,10 @@
+<map id="tblinalg::MatBlock::Dim" name="tblinalg::MatBlock::Dim">
+<area shape="rect" id="node2" href="$classtblinalg_1_1TBOperator.html#ad3043719567990b0ebd1634e482314ee" title="tblinalg::TBOperator::Dim" alt="" coords="213,205,384,231"/>
+<area shape="rect" id="node6" href="$classtblinalg_1_1MatBlock.html#a606ae7618230b9374d514c5d4d82b403" title="tblinalg::MatBlock\l::GetMatRow" alt="" coords="235,136,362,177"/>
+<area shape="rect" id="node9" href="$classtblinalg_1_1MatBlock.html#aa58360320b1caa6e9eeeae6fbb647dca" title="tblinalg::MatBlock\l::SetMatRow" alt="" coords="235,256,362,297"/>
+<area shape="rect" id="node3" href="$classtblinalg_1_1TBOperator.html#a213b7354198952bce9437165194c8c41" title="tblinalg::TBOperator\l::NumNonZero" alt="" coords="436,232,575,273"/>
+<area shape="rect" id="node4" href="$classtblinalg_1_1TBOperator.html#a48086853e5ecf8e651d27d9b0acd7968" title="tblinalg::TBOperator\l::WriteIntoFile" alt="" coords="627,135,765,176"/>
+<area shape="rect" id="node5" href="$classtblinalg_1_1TBOperator.html#a910e9a10acef4d1e5300600db524df11" title="tblinalg::TBOperator\l::saveTxtCoo" alt="" coords="436,167,575,208"/>
+<area shape="rect" id="node7" href="$classtblinalg_1_1TBOperator.html#a5cfb11c5a2088a036ee04b769942099b" title="tblinalg::TBOperator\l::AddEntry" alt="" coords="436,101,575,143"/>
+<area shape="rect" id="node8" href="$classtblinalg_1_1TBOperator.html#a24c3cd690a24a9381175a9a5e12cd6f7" title="tblinalg::TBOperator\l::NumNonZeroInRow" alt="" coords="432,36,579,77"/>
+</map>

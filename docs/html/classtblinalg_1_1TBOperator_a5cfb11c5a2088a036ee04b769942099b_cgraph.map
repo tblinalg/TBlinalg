@@ -1,0 +1,9 @@
+<map id="tblinalg::TBOperator::AddEntry" name="tblinalg::TBOperator::AddEntry">
+<area shape="rect" id="node2" href="$classtblinalg_1_1MatRow.html#a64d2e2eefe20d6df083277943a9bd7ee" title="tblinalg::MatRow::AddMat\lTuple" alt="" coords="192,5,365,46"/>
+<area shape="rect" id="node3" href="$classtblinalg_1_1MatGrid.html#a71cf308f9633832ffcd1b4fa1ba75263" title="tblinalg::MatGrid::\lBlock" alt="" coords="216,70,341,111"/>
+<area shape="rect" id="node4" href="$classtblinalg_1_1TBOperator.html#adc83dacb06782bb73d73bd168ff7efb2" title="tblinalg::TBOperator\l::BufferSize" alt="" coords="209,135,348,177"/>
+<area shape="rect" id="node5" href="$classtblinalg_1_1MatRow.html#ad99a9dc664d66df02e3f42f4b93c32c6" title="tblinalg::MatRow::Dim" alt="" coords="417,231,569,257"/>
+<area shape="rect" id="node6" href="$classtblinalg_1_1MatBlock.html#a606ae7618230b9374d514c5d4d82b403" title="tblinalg::MatBlock\l::GetMatRow" alt="" coords="215,318,342,359"/>
+<area shape="rect" id="node8" href="$classtblinalg_1_1MatRow.html#a65a461737b6dcad1f0b14b512c23e1eb" title="tblinalg::MatRow::GetMat\lTuple" alt="" coords="193,253,364,294"/>
+<area shape="rect" id="node7" href="$classtblinalg_1_1MatBlock.html#a8e7a3159d2fd94b8c6752b7c0ea3c8d8" title="tblinalg::MatBlock::Dim" alt="" coords="414,325,573,352"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="tblinalg::TBOperator" name="tblinalg::TBOperator">
+<area shape="rect" id="node2" href="$classtblinalg_1_1Indexes.html" title="{tblinalg::Indexes\n|&#45; numIndexes_\l|+ Indexes()\l+ operator()()\l+ operator()()\l+ Dim()\l+ Dim()\l+ NumOfIndexes()\l+ ReduceToOne()\l+ ScatterToAll()\l}" alt="" coords="91,603,220,783"/>
+<area shape="rect" id="node4" title="STL class. " alt="" coords="329,296,444,373"/>
+<area shape="rect" id="node9" href="$classtblinalg_1_1MatGrid.html" title="{tblinalg::MatGrid\n|+ numNei_\l|+ MatGrid()\l+ MatGrid()\l+ Block()\l+ Block()\l+ operator()()\l+ operator()()\l+ MooreIDX()\l}" alt="" coords="264,1421,380,1587"/>
+<area shape="rect" id="node8" title="STL class. " alt="" coords="726,5,823,83"/>
+<area shape="rect" id="node11" href="$classtblinalg_1_1MatBlock.html" title="{tblinalg::MatBlock\n||+ MatBlock()\l+ MatBlock()\l+ Dim()\l+ SetDim()\l+ SetMatBlock()\l+ SetMatRow()\l+ GetMatRow()\l+ GetMatRow()\l}" alt="" coords="413,1019,539,1199"/>
+<area shape="rect" id="node13" href="$classtblinalg_1_1MatRow.html" title="{tblinalg::MatRow\n||+ MatRow()\l+ MatRow()\l+ AddMatTuple()\l+ AddMatTuple()\l+ SortRow()\l+ Dim()\l+ GetMatTuple()\l+ GetMatTuple()\l}" alt="" coords="503,603,623,783"/>
+<area shape="rect" id="node15" href="$structtblinalg_1_1MatTuple.html" title="{tblinalg::MatTuple\n|+ col\l|+ MatTuple()\l+ MatTuple()\l}" alt="" coords="655,289,780,381"/>
+</map>

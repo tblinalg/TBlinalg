@@ -1,0 +1,7 @@
+<map id="tblinalg::MatRow::AddMatTuple" name="tblinalg::MatRow::AddMatTuple">
+<area shape="rect" id="node2" href="$classtblinalg_1_1TBOperator.html#a5cfb11c5a2088a036ee04b769942099b" title="tblinalg::TBOperator\l::AddEntry" alt="" coords="227,5,365,46"/>
+<area shape="rect" id="node3" href="$classtblinalg_1_1TBOperator.html#a63eb4d7124892b42f4835e12420746ef" title="tblinalg::TBOperator\l::ReadOpFromFile" alt="" coords="227,70,365,111"/>
+<area shape="rect" id="node5" href="$classtblinalg_1_1TBOperator.html#a910e9a10acef4d1e5300600db524df11" title="tblinalg::TBOperator\l::saveTxtCoo" alt="" coords="227,135,365,177"/>
+<area shape="rect" id="node6" href="$classtblinalg_1_1TBOperator.html#a48086853e5ecf8e651d27d9b0acd7968" title="tblinalg::TBOperator\l::WriteIntoFile" alt="" coords="227,201,365,242"/>
+<area shape="rect" id="node4" href="$classtblinalg_1_1TBOperator.html#a4abac736735b10207dad13d66b389692" title="tblinalg::TBOperator\l::ReadOpFromFile" alt="" coords="413,70,552,111"/>
+</map>

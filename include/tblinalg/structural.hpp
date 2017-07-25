@@ -71,10 +71,48 @@ struct Structural
 		is>>nspin;
 		is.close();
 	}
+
+	void GetFromCFG(std::string filename)
+	{
+		if ( !fileExists(filename) )
+		{
+			std::cout<<"the .cfg file: "<< filename<<" not found. ABORTING "<<std::endl;
+			std::exit(-1);
+		}
+		std::ifstream is(filename.c_str(),std::ifstream::binary );	
+		
+		
+		const std::string header("STRUCTURAL");
+		std::string line;
+		bool header_found=false;
+		while( getline(is, line ) ) 
+		{
+			if (line.find(header, 0) != std::string::npos)
+			{
+				for(size_t i=0; i< spatialDim; i++)
+				{
+					is>>dim[i];
+				for(size_t j=0; j< spatialDim; j++)
+					is>>lat[i][j];
+				}
+				is>>norb;
+				is>>nspin;
+			header_found=true;
+			}
+		}	
+		is.close();
+
+		if( !header_found )
+		{
+			std::cout << "The header " << header<<" was not found in CFG file " <<filename<<" , therefore aborting"<< std::endl;
+			std::exit(-1);
+		}
+	}
+
 	
 	void printParams()
 	{
-	std::cout<<"The structural parameters are:"<<std::endl
+	std::cout<<std::endl<<"The structural parameters are:"<<std::endl
 			 <<"Unit cell lattice vectors :"<<std::endl
 			 <<"Lat1: ( "<<lat[0][0]<<" , "<<lat[0][1]<<" , "<<lat[0][2]<<" )"<<std::endl
 			 <<"Lat2: ( "<<lat[1][0]<<" , "<<lat[1][1]<<" , "<<lat[1][2]<<" )"<<std::endl

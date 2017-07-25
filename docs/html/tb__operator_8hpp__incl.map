@@ -1,0 +1,21 @@
+<map id="include/tblinalg/tb_operator.hpp" name="include/tblinalg/tb_operator.hpp">
+<area shape="rect" id="node9" href="$types__definitions_8hpp.html" title="types_definitions.hpp" alt="" coords="985,411,1129,437"/>
+<area shape="rect" id="node12" href="$structural_8hpp.html" title="tblinalg/structural.hpp" alt="" coords="455,187,601,213"/>
+<area shape="rect" id="node13" href="$input__output_8hpp.html" title="tblinalg/input_output.hpp" alt="" coords="5,261,168,288"/>
+<area shape="rect" id="node15" href="$string__util_8h.html" title="tblinalg/string_util.h" alt="" coords="681,187,815,213"/>
+<area shape="rect" id="node17" href="$mat__tuple_8hpp.html" title="tblinalg/mat_tuple.hpp" alt="" coords="1429,336,1577,363"/>
+<area shape="rect" id="node18" href="$mat__row_8hpp.html" title="tblinalg/mat_row.hpp" alt="" coords="1409,261,1551,288"/>
+<area shape="rect" id="node20" href="$mat__grid_8hpp.html" title="tblinalg/mat_grid.hpp" alt="" coords="905,104,1047,131"/>
+<area shape="rect" id="node22" href="$indexes_8hpp.html" title="tblinalg/indexes.hpp" alt="" coords="1195,261,1332,288"/>
+<area shape="rect" id="node23" href="$add__entry_8cpp.html" title="tboperator/add_entry.cpp" alt="" coords="1561,104,1727,131"/>
+<area shape="rect" id="node24" href="$rescale_8cpp.html" title="tboperator/rescale.cpp" alt="" coords="1751,104,1901,131"/>
+<area shape="rect" id="node25" href="$multiply_8cpp.html" title="tboperator/multiply.cpp" alt="" coords="1927,104,2080,131"/>
+<area shape="rect" id="node26" href="$print__tb__op_8cpp.html" title="tboperator/print_tb\l_op.cpp" alt="" coords="2106,97,2232,138"/>
+<area shape="rect" id="node27" href="$save__txt__coo_8cpp.html" title="tboperator/save_txt\l_coo.cpp" alt="" coords="2257,97,2391,138"/>
+<area shape="rect" id="node28" href="$num__non__zero_8cpp.html" title="tboperator/num_non\l_zero.cpp" alt="" coords="2415,97,2552,138"/>
+<area shape="rect" id="node29" href="$num__non__zero__in__row_8cpp.html" title="tboperator/num_non\l_zero_in_row.cpp" alt="" coords="2577,97,2713,138"/>
+<area shape="rect" id="node30" href="$read__op__from__file_8cpp.html" title="tboperator/read_op\l_from_file.cpp" alt="" coords="2739,97,2868,138"/>
+<area shape="rect" id="node31" href="$write__into__file_8cpp.html" title="tboperator/write_into\l_file.cpp" alt="" coords="2894,97,3033,138"/>
+<area shape="rect" id="node32" href="$set__row__range_8cpp.html" title="tboperator/set_row\l_range.cpp" alt="" coords="3059,97,3188,138"/>
+<area shape="rect" id="node21" href="$mat__block_8hpp.html" title="mat_block.hpp" alt="" coords="963,187,1069,213"/>
+</map>
